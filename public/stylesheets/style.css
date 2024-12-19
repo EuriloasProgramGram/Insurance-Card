@@ -1,0 +1,93 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+label, input {
+  display: block;
+}
+input, select {
+  margin-bottom: 16px;
+}
+.info-row, .info-container{
+  display: flex;
+}
+.info-row {
+  flex: 1;
+}
+.label{
+  font-weight: bold;
+  margin-right: 8px;
+}
+.info-container {
+  gap: 16px;
+}
+.name-row{
+  font-size: 20px;
+}
+.card p{
+  margin:6px;
+}
+.card {
+  border: 2px solid #999;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 16px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+font: 20px "comic sans", bold;
+}
+.address-text p{
+  padding:0;
+  margin:0;
+}
+.address-text p:first-child{
+  margin-bottom:6px;
+}
+.address-text p:last-child{
+  margin-top:6px;
+}
+
+.card.premium{
+  border: 2px solid #d7ac67;
+  background: #fade83;
+}
+.card.standard{
+  border: 2px solid #999;
+  background: #d5d8d8;
+}
+.card.bronze{
+  border: 2px solid #714740;
+  background: #af6f47;
+}
+
+a{
+  color: #9a63ff;
+  border-radius: 2px;
+  border: #7638ea solid 3px;
+  font-weight: bold;
+  background: #e0cfff;
+}
+.card.premium p{
+  color: #d7ac67;
+}
+.card.standard p{
+  color: #999;
+}
+
+.card.bronze p{
+  color: #714740;
+}
+
+.card.bronze p.label{
+  color: #000000;
+}
+
+.card.standard p.label{
+  color: #000000;
+}
+
+.card.premium p.label{
+  color: #000000;
+}
